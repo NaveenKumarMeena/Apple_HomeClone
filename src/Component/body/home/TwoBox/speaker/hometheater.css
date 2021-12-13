@@ -1,0 +1,29 @@
+.hometheater{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: #FBFBFD;
+}
+.hometheater-title{
+    margin-top: 50px;
+    font-size: 40px;
+    color: black;
+    font-weight: 700;
+}
+.hometheater-subheading{
+    margin-top: 10px;
+    color:black;
+    font-size: 20px;
+    text-align: center;
+}
+.image img{
+    height: 400px;
+}
+@media only screen and (max-width: 920px){
+    .image img{
+        height: fit-content;
+    }
+}

@@ -1,0 +1,54 @@
+.footer{
+    display: flex;
+    background-color: #f5f5f7;
+    align-items: center;
+    justify-content: center;
+}
+.half{
+    max-width: 1024px;
+
+}
+hr{
+    color: #6e6e73;
+    background-color: #6e6e73;
+    height: 0.1px;
+}
+.contact{
+    color: #6e6e73;
+    font-size: 13px;
+    font-weight: 491;
+}
+.contact a{
+    text-decoration: none;
+    color: blue;
+    font-size: 13px;
+    font-weight: 491;
+}
+.contact a:hover{
+    text-decoration: underline;
+}
+.tags{
+    display: block;
+}
+@media only screen and (max-width: 920px){
+    .footer{
+        width: 100%;
+    }
+    .contact{
+        font-size: 12px;
+        margin-right: 143px;
+        margin-left: 13px;
+        text-align: left;
+        display: block;
+    }
+    .contact a{
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .contact a:hover{
+        text-decoration: none;
+    }
+    .tags{
+        display: none;
+    }
+}

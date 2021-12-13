@@ -1,0 +1,100 @@
+body{
+    top: 0px;
+    bottom: 0px;
+}
+.header{
+font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+display: block;
+position: fixed;
+width: 100%;
+
+}
+.navbar-tags{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    opacity: 0.9;
+    margin-top: 0px;
+    padding: 10px;
+    list-style: none;
+    margin-bottom: 0px;
+}
+.tag a{
+    text-decoration: none;
+    color: #a9a9ad;
+    padding: 5px;
+    font-size: 12px;
+}
+.tag a:hover{
+    color: white;
+}
+.tag{
+margin: 5px 25px;
+}
+.icons{
+    font-size: 15px;
+}
+.mobinav{
+    display: none;
+    background-color: black;
+    position: fixed;
+width: inherit;
+z-index: 6;
+opacity: 0.9;
+}
+.hamburgermenu{
+ width: 50%;
+}
+.hamburgermenu button{
+    border: none;
+    background: none;
+}
+.hamburgermenu button i{
+    color: white;
+    font-size: 25px;
+}
+.icon{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    width: 50%;
+}
+.icon i{
+    font-size: 30px;
+}
+.dropdown{
+   height: 0; 
+   transition: height 1s ease;
+   height: 0;
+   overflow: hidden;
+}
+.dropdown.open{
+    height: 600px;
+}
+.drop-tag{
+    list-style: none;
+    margin-top: 20px;
+}
+.drop-tag:first-child{
+    margin-top: 50px;
+}
+.drop-tag a{
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+}
+.on{
+    display: block;
+}
+.off{
+    display: none;
+}
+@media only screen and (max-width: 920px){
+    .navbar-tags{
+        display: none;
+    }
+    .mobinav{
+        display: block;
+    }
+}

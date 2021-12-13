@@ -1,0 +1,16 @@
+.header{
+    width: 100%;
+    overflow: hidden;
+    top: 0px;
+    z-index: 4;
+}
+.covid-section{
+    margin-top: 20px;
+}
+@media only screen and (max-width: 920px){
+    .covid-section{
+        margin-top: 50px;
+    
+    }
+    
+}

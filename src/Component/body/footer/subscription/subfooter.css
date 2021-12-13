@@ -1,0 +1,19 @@
+.subfooter p{
+    color: #6e6e73;
+    text-align: left;
+    font-size: 13px;
+}
+.term{
+    
+    color: #424245;
+    font-size: 13px;
+    font-weight: 516;
+}
+@media only screen and (max-width: 920px){
+    .subfooter p{
+        font-size: 12px;
+        width: 93%;
+    margin-left: 13px;
+        text-align: left;
+    }
+}
